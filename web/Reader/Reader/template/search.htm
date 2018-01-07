@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>古籍图书借阅</title>
+</head>
+<body>
+	<center>
+		<div style="width:800px;">
+			<div style="float:right;">
+			<a href="#"><font style="color:black; font-size:4px;">登陆</font></a>
+			<a href="#"><font style="color:black; font-size:4px;">注册</font></a>
+			</div>
+			<div style="width:800px; height:125px"></div>
+			<div>
+				<img src="../img/head.png" />
+			</div>
+            <div>
+                <form action="search.ashx" method="post">
+                    <select>
+                        <option value="caseName">书名</option>
+						<option value="isbn">ISBN</option>
+						<option value="writer">作者</option>
+						<option value="vname">分书名</option>
+						<option value="vwriter">分书著者</option>
+                    </select>
+					<input type="text" name="schtx" value="请输入" onfocus="if(this.value == '请输入') this.value='';"/>
+					<input type="submit" value="查找" />
+                </form>
+            </div>
+		</div>
+	</center>
+</body>
+</html>
