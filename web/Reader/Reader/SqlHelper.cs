@@ -6,7 +6,7 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace stu
+namespace Reader
 {
     public static class  SqlHelper
     {

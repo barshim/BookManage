@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>查询结果 - 古籍图书借阅</title>
+</head>
+<body>
+    <center>
+		<div style="width:800px;">
+            <div style="float:right;">
+			    <a href="#"><font style="color:black; font-size:4px;">登陆</font></a>
+			    <a href="#"><font style="color:black; font-size:4px;">注册</font></a>
+			</div>
+            <div><img src="../img/head.png" /></div>
+            <div>
+            <font style="font-size:5px">
+             <table cellpadding="4px">
+                <tr style="background-color:#CCCCCC;">
+                    <td width="17%">书名</td>
+                    <td width="10%">作者</td>
+                    <td width="17%">出版社</td>
+                    <td width="15%">出版年</td>
+                    <td width="15%">ISBN</td>
+                    <td width="2%">册数</td>
+                    <td width="19%">典藏部门</td>
+                </tr>
+                #foreach($c in $Data.book)
+                <tr style="background-color:#eeeeee;">
+                    <td>$c.caseName</td>
+                    <td>$c.writer</td>
+                    <td>$c.press</td>
+                    <td>$c.pubdate</td>
+                    <td>$c.isbn</td>
+                    <td>$c.vnum</td>
+                    <td>$c.department</td>
+                </tr>
+                #end
+            </table></font>
+           </div>
+        </div>
+    </center>
+</body>
+</html>

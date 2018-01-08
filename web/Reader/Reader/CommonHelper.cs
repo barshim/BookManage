@@ -6,7 +6,7 @@ using NVelocity.App;
 using NVelocity.Runtime;
 using NVelocity;
 
-namespace stu
+namespace Reader
 {
     public class CommonHelper
     {

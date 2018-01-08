@@ -1,1 +1,5 @@
 E:\git\BookManage\web\Reader\Reader\obj\Debug\ResolveAssemblyReference.cache
+E:\git\BookManage\web\Reader\Reader\bin\Reader.dll
+E:\git\BookManage\web\Reader\Reader\bin\Reader.pdb
+E:\git\BookManage\web\Reader\Reader\obj\Debug\Reader.dll
+E:\git\BookManage\web\Reader\Reader\obj\Debug\Reader.pdb
