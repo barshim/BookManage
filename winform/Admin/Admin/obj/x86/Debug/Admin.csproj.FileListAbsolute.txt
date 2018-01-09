@@ -1,0 +1,10 @@
+E:\git\BookManage\winform\Admin\Admin\bin\Debug\Admin.exe
+E:\git\BookManage\winform\Admin\Admin\bin\Debug\Admin.pdb
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\Admin.mainForm.resources
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\Admin.Properties.Resources.resources
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\Admin.exe
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\Admin.pdb
+E:\git\BookManage\winform\Admin\Admin\obj\x86\Debug\Admin.login.resources

@@ -9,11 +9,17 @@ using System.Windows.Forms;
 
 namespace Admin
 {
-    public partial class Form1 : Form
+    public partial class mainForm : Form
     {
-        public Form1()
+        public mainForm()
         {
             InitializeComponent();
         }
+
+        private void mainForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
+
     }
 }
