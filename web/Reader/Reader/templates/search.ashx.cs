@@ -19,14 +19,11 @@ namespace Reader.template
             context.Response.ContentType = "text/html";
             //context.Response.Write("Hello World");
             string schitem = context.Request["schitem"];
-            string a = "%%";
-            string schtx = a.Insert(1, context.Request["schtx"]);
             //string schtx=context.Request["schtx"];
-
 
             DataTable dt = new DataTable();
 
-            if (string.IsNullOrEmpty(schitem) || string.IsNullOrEmpty(schtx))//scan all case
+            if (string.IsNullOrEmpty(schitem) || string.IsNullOrEmpty(context.Request["schtx"]))//scan all case
             {
                 dt = SqlHelper.ExecuteDataTable("select * from caseBook");
                 var Data = new { book = dt.Rows };
@@ -35,6 +32,8 @@ namespace Reader.template
             }
             else//search
             {
+                string a = "%%";
+                string schtx = a.Insert(1, context.Request["schtx"]);
                 if (schitem == "caseName"  )
                 {
                     dt = SqlHelper.ExecuteDataTable("select * from caseBook where caseName like @tx",
