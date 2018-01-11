@@ -127,6 +127,9 @@
     <Compile Include="schrd.Designer.cs">
       <DependentUpon>schrd.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="bookin.resx">
+      <DependentUpon>bookin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
